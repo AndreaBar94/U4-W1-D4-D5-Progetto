@@ -64,6 +64,7 @@ public class Player {
 					System.out.println("Trovo ripugnante la tua assenza di fede nella Forza.");
 			};
 		}
+		input.close();
 
 	}
 	
