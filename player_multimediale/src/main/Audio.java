@@ -2,18 +2,16 @@ package main;
 
 public class Audio extends ElementoMultimediale implements Volume{
 	
-	private int volume;
+	private int volume = 3;
 	private int durata;
 	
 	
 	
-	public Audio(String title, int volume, int durata) {
+	public Audio(String title, int durata) {
 		super(title);
-		this.volume = volume;
 		this.durata = durata;
 		
 	}
-	
 	
 	public int alzaVolume() {
 		return volume++;
